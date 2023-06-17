@@ -1,0 +1,30 @@
+multiplyMatrices():
+
+Beschreibung: Es bekommt eine Matrix als Parameter und gibt die Multiplikation zwischen die Matrix die als Parameter gegeben wurde und die Matrix mit welche man der Function aufruft zuruck 
+pre: matrix1 ist einen Matrix
+post: reultMatrix representiert die Multiplikation
+
+Algorithm:
+
+if (matrix1.nrOfColumns != this->nrOfLines) then
+        @exception
+end-if
+
+int resultNrLines <- matrix1.nrOfLines
+int resultNrColumns <- this-> nrOfColumns
+Matrix resultMatrix(resultNrLines, resultNrColumns)
+
+
+for  (int i <- 0; i < resultNrLines; i++) 
+        for (int j <- 0; j < resultNrColumns; j++) 
+            TElem sum = 0
+            for (int k <- 0; k < matrix1.nrColumns(); k++) 
+                sum += matrix1.element(i, k) * this->element(k, j)
+            end-for
+            resultMatrix.modify(i, j, sum)
+        end-for
+    end-for
+    return resultMatrix
+
+end-algorithm
+
