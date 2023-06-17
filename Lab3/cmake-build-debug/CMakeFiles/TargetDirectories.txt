@@ -1,0 +1,3 @@
+C:/Users/jozsef/CLionProjects/Labor3-DSA/cmake-build-debug/CMakeFiles/Labor3_DSA.dir
+C:/Users/jozsef/CLionProjects/Labor3-DSA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jozsef/CLionProjects/Labor3-DSA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
